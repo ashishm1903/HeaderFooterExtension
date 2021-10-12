@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://nitoronline.sharepoint.com/sites/AccelareQA/AshishMore",
+      "customActions": {
+        "45c5b951-ff08-45fd-b96d-4b6b9276408d": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "elementId" : "O365_MainLink_Help_container",
+            "elementIdBar" : "sp-appBar"
+          }
+        }
+      }
+    },
+    "headerfooterextension": {
+      "pageUrl": "https://nitoronline.sharepoint.com/sites/AccelareQA/AshishMore",
+      "customActions": {
+        "45c5b951-ff08-45fd-b96d-4b6b9276408d": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "elementId" : "O365_MainLink_Help_container",
+            "elementIdBar" : "sp-appBar"
+          }
+        }
+      }
+    }
+  }
+}
